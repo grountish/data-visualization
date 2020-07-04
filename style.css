@@ -1,43 +1,48 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
-  }
-  canvas {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+canvas {
     display: block;
     margin: 0 auto;
     padding: 20px;
-  }
-  p{
-  position:absolute;
-  bottom:-10px;
-  left:10px;
-  }
-#years-container{
-      display: flex;
-      flex-direction: row;
-      width: 800px;
-      justify-content: space-between;
-      margin: auto auto;
-      text-align: center;
-  }
- #data-canvas-container{
-     padding: 20px;
-     display: flex;
-     flex-direction: column;
-     flex-flow: column-reverse;
-     width: 80vw;
-     margin: auto;
- }
- input{
-     margin: 0 auto;
-     text-align: center;
-     width: 80vw;
- }
- #slider-container{
-     margin: auto;
- }
- .header{
-     margin: auto;
-     text-align: center;
-     padding-top: 30px ;
- }
+}
+
+#years-container {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    justify-content: space-between;
+    margin: auto auto;
+    text-align: center;
+}
+
+#data-canvas-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column-reverse;
+    width: 80vw;
+    margin: auto;
+}
+
+input {
+    margin: 0 auto;
+    text-align: center;
+    width: 80vw;
+}
+
+#slider-container {
+    margin: auto;
+}
+
+.header {
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    width: 50%;
+    font-size: 1.3rem;
+}
