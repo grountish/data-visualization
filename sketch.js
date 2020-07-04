@@ -23,13 +23,7 @@ function draw() {
         bugs[i].move();
         bugs[i].display();
     }
-    for (let i = 0; i < slider.value(); i++) {
-        // line(random(800), random(400), random(800), random(400))
-
-        translate(p5.Vector.fromAngle(millis() / 1000, 40));
-        pop()
-        ellipse(i + 1, i + 1, i + 2, i + 2)
-    }
+    
 }
 
 // Jitter class
